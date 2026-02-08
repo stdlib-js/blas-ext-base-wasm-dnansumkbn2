@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dnansumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dnansumkbn2@esm/index.mjs';
+import dnansumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dnansumkbn2@v0.1.1-esm/index.mjs';
 ```
 
 #### dnansumkbn2.main( N, x, strideX )
@@ -266,7 +266,7 @@ The function has the following additional parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dnansumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dnansumkbn2@esm/index.mjs';
+import dnansumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dnansumkbn2@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
